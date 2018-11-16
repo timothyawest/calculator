@@ -1,4 +1,44 @@
+body{
+  font-size:5vw;
+  background-color:white;
+}
 .App {
+  text-align: center;
+  margin: 0 auto;
+  background-color:whitesmoke;
+}
+#display {
+  font-size:5vh;
+  text-align: right;
+  background-color: white;
+  border:solid;
+  border-width:1px;
+  border-color:grey;
+  height: 10vh;
+  width: 75vw;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.btn-fn {
+  background-color:red;
+}
+.btn-num {
+  background-color:pink;
+}
+
+.btn-clr{
+  background-color:green;
+}
+#buttons{
+  
+}
+#buttons .button {
+  height: 15vh;
+  width:  15vw;
+  font-size: 5vw;
+  border-radius:10px;
+  margin: 1px;
   text-align: center;
 }
 
